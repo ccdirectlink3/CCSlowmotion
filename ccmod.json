@@ -1,13 +1,11 @@
 {
-  "name": "slowmotion",
-  "version": "0.2.0",
+  "id": "slowmotion",
+  "version": "0.3.0",
   "license": "MIT",
   "homepage": "https://github.com/CCDirectLink/CCSlowmotion",
   "description": "Turns your X key into a slowmotion controller",
-  "module": true,
   "prestart": "prestart.js",
-  "main": "poststart.js",
-  "ccmodDependencies": {
+  "dependencies": {
     "crosscode": "^1.1.0"
   }
 }

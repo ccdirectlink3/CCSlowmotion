@@ -1,12 +1,10 @@
-if (versions.hasOwnProperty('input-api')) {
-  sc.OPTIONS_DEFINITION['keys-slowmotion'] = {
-    type: 'CONTROLS',
-    init: { key1: ig.KEY.X },
-    cat: sc.OPTION_CATEGORY.CONTROLS,
-    hasDivider: true,
-    header: 'slowmotion',
-  };
-}
+sc.OPTIONS_DEFINITION['keys-slowmotion'] = {
+  type: 'CONTROLS',
+  init: { key1: ig.KEY.X },
+  cat: sc.OPTION_CATEGORY.CONTROLS,
+  hasDivider: true,
+  header: 'slowmotion',
+};
 
 const TIME_FACTOR = 0.5;
 

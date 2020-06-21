@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "options": {
+      "headers": {
+        "slowmotion": "slowmotion"
+      },
+      "controls": {
+        "keys": {
+          "slowmotion": "Activate slowmotion"
+        }
+      }
+    }
+  }
+}
